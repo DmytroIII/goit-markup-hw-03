@@ -1,0 +1,227 @@
+
+:root {
+  --button-and-h1-color: #FFFFFF;
+  --main-text-color: #757575;
+  --small-text-color: #212121;
+  --background-button-hover:#2196F3;
+  --background-header-footer-color:#2F303A;
+  --background-our-team-color: #F5F4FA;
+}
+
+
+body {
+    background-color: var(--main-white-color);
+    color:var(main-text-color);
+    font-family: Roboto, sans-serif;
+    font-style:normal;
+    letter-spacing: 0.03em;
+}
+
+
+.logo{
+    text-decoration: none;
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    line-height: 1.19;
+    font-size: 26px;
+}
+
+.logo_web {
+    color: var(--background-button-hover);
+}
+
+.logo_studio_black {
+    color:var(--small-text-color);
+}
+
+.logo_studio_white {
+    color: var(--button-and-h1-color);
+}
+
+
+.list {
+    list-style: none;
+}
+
+.list a {
+    text-decoration: none;
+}
+
+
+.section_title {
+    color:var(--small-text-color);
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+.main {
+    color: var(--button-and-h1-color);
+    text-transform: uppercase;
+    font-size: 44px;
+    line-height: 1.36;
+    font-style: normal;
+    text-align: center;
+    font-weight: 900;
+    letter-spacing: 0.06em;
+}
+
+.name {
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.19;
+    font-weight: 500;
+    text-align: center;
+}
+
+.second {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    text-transform: none;
+    font-weight: 700;
+}
+
+.contacts {
+    font-size: 14px;
+    line-height: 1.7;
+}
+
+.our_team p {
+    font-size: 16px;
+    line-height: 1.16;
+    color: var(--main-text-color);
+    text-align: center;
+
+}
+
+.site-contacts .map {
+    color: var(--button-and-h1-color);
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.button {
+    font-family: Roboto, sans-serif;
+    background-color: var(--background-button-hover);
+    font-size: 16px;
+    line-height: 1.87;
+    font-weight: 700;
+    color: var(--button-and-h1-color);
+    cursor: pointer;
+    text-align: center;
+    letter-spacing: 0.06em;
+}
+
+.menu .button.active {
+    background-color: var(--background-button-hover);
+    color:var(--button-and-h1-color);
+}
+
+.menu .button {
+    background-color: var(--background-our-team-color);
+    color:var(--small-text-color);
+    font-style: normal;
+    font-weight:500;
+    text-align: center;
+    line-height: 1.62;
+    letter-spacing: 0.03em;
+}
+
+.menu .button:hover,
+.menu .button:active,
+.menu .button:focus {
+    background-color: var(--background-button-hover);
+    color: var(--button-and-h1-color);
+}
+
+
+.site-nav .link:hover, 
+.site-nav .link:active,
+.site-nav .link:focus
+ {
+    color: var(--background-button-hover);
+}
+
+.site-nav a {
+    color: var(--small-text-color);
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    font-size: 14px;
+    line-height: 1.14;
+}
+
+
+.site-nav .link.current {
+    color: var(--background-button-hover);
+}
+
+/* Banner */
+
+.banner {
+background-color: var(--background-header-footer-color);
+}
+
+/* Contacts */
+
+.top-adress a{
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    font-weight: 500;
+    font-style: normal;
+    color: var(--main-text-color);
+}
+
+.bottom-adress a{
+    font-size: 14px;
+    line-height: 1.71;
+    font-style: normal;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.site-contacts .link:hover,
+.site-contacts .map:hover {
+        color: var(--background-button-hover);
+}
+
+/* Advantages */
+
+.advantages p {
+    font-size: 14px;
+    color: var(--main-text-color);
+    line-height: 1.71;
+}
+
+/* Our team */
+
+.our-team {
+ background-color: var(--background-our-team-color);
+}
+
+/* What we do */
+
+.project {
+text-transform: none;
+font-weight: 700;
+font-size: 18px;
+line-height: 2;
+letter-spacing: 0.06em;
+}
+
+.portfolio-project p {
+    text-transform: none;
+    font-size: 16px;
+    line-height: 1.87;
+    color: var(--main-text-color);
+}
+
+/* Footer */
+
+.footer {
+    background-color: var(--background-header-footer-color);
+}
+
+
