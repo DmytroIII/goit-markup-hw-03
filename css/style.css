@@ -59,8 +59,7 @@ h1,h2,h3,h4,h5,h6,ul,li,p {
 
 .services {
     display: flex;
-    margin-top: 60px;
-    margin-bottom: 94px;
+    padding-bottom: 94px;
 }
 
 .services > li:nth-child(-n + 2) {
@@ -73,7 +72,7 @@ h1,h2,h3,h4,h5,h6,ul,li,p {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
-    margin-bottom: 10px;
+    margin-bottom: 50px;
 }
 
 .main {
@@ -266,8 +265,8 @@ display: flex;
 }
 
 .advantages {
-    margin-top: 95px;
-    margin-bottom: 100px;
+    padding-top: 95px;
+    padding-bottom: 100px;
 }
 
 .advantages p {
@@ -293,8 +292,6 @@ display: flex;
 .team {
  background-color: var(--background-our-team-color);
  display:flex;
- margin-top: 50px;
-
 }
 
 .team-list:nth-child(-n + 3) {
